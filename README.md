@@ -1,6 +1,6 @@
 
 
-## Jasmine
+## Introducing Jasmine
 
 Jasmine is an English-like syntax for writing unit tests. Karma supports several syntaxes, but most people use Jasmine style syntax. Jasmine looks like this:
 
@@ -14,18 +14,7 @@ In theory, Jasmine tests can be read and understood by a layperson. Jasmine test
 
 Don't go over-complicating your tests with anything surprising or you have defeated the point of testing. Sensible, well named helper functions are allowed.
 
-aside.box
-:markdown
-  ## What about Karma?
 
-  Karma is a unit testing framework that can run Jasmine tests in a console. It is especially useful when deploying on a CI server.
-
-
-
-!=resources(exercise)
-
-section.exercise
-:markdown
 ## Exercise 1 - Check that basic maths works
 
 In this exercise, we're going to set up and run some tests in a simple, browser based test harness. In the next section we will automate these tests so they run automatically.
